@@ -1,0 +1,7 @@
+ID,CLIENT_CODE,CLIENT_NAME,EMAIL,PHONE,CONTACT_PERSON,STATUS,STREET,CITY,STATE,COUNTRY,ZIP_CODE
+22222222-2222-2222-2222-222222222201,C001,TechCorp India,contact@techcorp.in,+91-80-23456789,Anand Verma,ACTIVE,100 Outer Ring Road,Bengaluru,Karnataka,India,560103
+22222222-2222-2222-2222-222222222202,C002,Global Solutions Ltd,info@globalsolutions.com,+91-22-67890123,Sunita Rao,ACTIVE,500 BKC Avenue,Mumbai,Maharashtra,India,400051
+22222222-2222-2222-2222-222222222203,C003,NextGen Systems,support@nextgensys.com,+91-44-34567890,Karthik N,INACTIVE,25 OMR Tech Park,Chennai,Tamil Nadu,India,600096
+22222222-2222-2222-2222-222222222204,C004,StartUp Ventures,founders@startupv.io,+91-11-45678901,Deepak Goyal,ACTIVE,12 Barakhamba Road,New Delhi,Delhi,India,110001
+22222222-2222-2222-2222-222222222205,C005,Pinnacle Finance Corp,finance@pinnacle.co.in,+91-80-55667788,Asha Krishnan,ACTIVE,78 Financial District,Hyderabad,Telangana,India,500032
+22222222-2222-2222-2222-222222222206,C006,Apex Retail Group,retail@apexgroup.com,+91-44-99887766,Ramesh Iyer,ACTIVE,45 Anna Salai,Chennai,Tamil Nadu,India,600002
