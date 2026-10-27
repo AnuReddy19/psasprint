@@ -1,7 +1,6 @@
 // ============================================================================
 // PSA Sprint — Database Schema
 // Master and Transaction entities for the PSA application.
-// Uses associations (not compositions) per project requirements.
 // ============================================================================
 namespace psasprint.db;
 
@@ -9,14 +8,13 @@ using { psasprint.common as cmn } from './common';
 using { cuid } from '@sap/cds/common';
 
 // ===========================================================================
-// MASTER CONTEXT — Reference / master-data entities
+// MASTER CONTEXT — Master-data entities
 // ===========================================================================
 context master {
 
-  /**
-   * Clients — Customer / client organizations.
-   * Client code must be unique. Cannot delete a client that has projects.
-   */
+  
+   // Clients — Customer / client organizations.
+   
   entity Clients : cuid, cmn.AuditInfo, cmn.Address {
     CLIENT_CODE    : cmn.Code      @mandatory;
     CLIENT_NAME    : cmn.Name      @mandatory;
