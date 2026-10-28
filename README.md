@@ -1,4 +1,4 @@
-# psasprint — Project and Services Administration (PSA)
+# psasprint — Enterprise Professional Services Automation (PSA)
 
 A complete, production-ready enterprise SAP Cloud Application Programming Model (CAP) and SAP Fiori application engineered for deployment on **SAP Business Technology Platform (SAP BTP)** with **SAP HANA Cloud**.
 
