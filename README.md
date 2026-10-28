@@ -6,7 +6,7 @@ A complete, production-ready enterprise SAP Cloud Application Programming Model 
 
 ## 1. Project Overview
 
-`psasprint` delivers an end-to-end Project and Services Administration (PSA) suite featuring:
+`psasprint` delivers an end-to-end Professional Services Automation (PSA) suite featuring:
 - **Three Dedicated Role-Based Dashboards**: Manager, Administrator, and Employee self-service.
 - **Nine Dedicated Entity Applications**: Standardized SAP Fiori Elements List Report and Object Pages for every core business entity.
 - **Comprehensive Business Logic**: Live metric aggregation, budget burn calculation, strict association checks, and transactional integrity.
