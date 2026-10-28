@@ -10,37 +10,16 @@ using { managed, cuid } from '@sap/cds/common';
 // Reusable Data Types
 // ---------------------------------------------------------------------------
 
-/** UUID-based identifier */
 type Guid     : UUID;
-
-/** General-purpose name field (max 100 chars) */
 type Name     : String(100);
-
-/** Short business code (max 20 chars) */
 type Code     : String(20);
-
-/** Longer title field (max 200 chars) */
 type Title    : String(200);
-
-/** Multi-line description (max 1000 chars) */
 type Description : String(1000);
-
-/** Email address (max 256 chars) */
 type Email    : String(256);
-
-/** Phone number (max 30 chars) */
 type PhoneNo  : String(30);
-
-/** ISO currency code (3 chars) */
 type CurrencyCode : String(3);
-
-/** Monetary amount with 2 decimal places */
 type Amount   : Decimal(15, 2);
-
-/** Time in hours with 2 decimal places */
 type Hours    : Decimal(8, 2);
-
-/** Percentage with 2 decimal places */
 type Percentage : Decimal(5, 2);
 
 // ---------------------------------------------------------------------------
@@ -156,11 +135,7 @@ type InvoiceStatus : String(12) enum {
 // Reusable Aspects
 // ---------------------------------------------------------------------------
 
-/**
- * AuditInfo — Tracks who created/modified each record.
- * Based on CAP's `managed` aspect which auto-fills:
- *   createdAt, createdBy, modifiedAt, modifiedBy
- */
+// AuditInfo — Tracks who created/modified each record.
 aspect AuditInfo : managed {}
 
 /**
